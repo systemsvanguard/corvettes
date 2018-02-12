@@ -1,0 +1,45 @@
+/* Vue.js based Corvettes Carousel */
+body {
+  margin: 1rem 0;
+}
+
+.carousel-item {
+  display: block;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.6s ease;
+}
+.slide-leave-to {
+  transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+}
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-next.slide-leave-to {
+  transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+}
+.slide-next.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-prev.slide-leave-to {
+  transform: translateX(100%);
+  position: absolute;
+  top: 0;
+}
+.slide-prev.slide-enter {
+  transform: translateX(-100%);
+}
+
+.headtitle {
+	color: blue;
+	text-align: center;
+	font-family: "Lato", sans-serif;  
+}
