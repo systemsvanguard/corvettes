@@ -1,5 +1,4 @@
-# Corvettes
-###Corvettes Carousel
+# Corvettes Carousel
 ============
 
 An image scroller carousel made with Vue.js.  Can you tell I love Corvettes?
